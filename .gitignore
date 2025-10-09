@@ -1,0 +1,19 @@
+# Editor/OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# Python/venv (se usi script)
+__pycache__/
+*.pyc
+.venv/
+
+# Packet Tracer / Labs
+*.bak
+*.tmp
+
+# Capture e risultati grandi (includi solo sample)
+*.pcapng
+*.pcap
+*.mp4
+*.mkv
