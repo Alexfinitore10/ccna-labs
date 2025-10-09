@@ -1,11 +1,12 @@
 # ccna-labs
 
-Template di laboratorio **CCNA 200-301** (intensivo, 6 settimane) pensato per:
-- organizzare i tuoi lab per **argomento** (VLAN, OSPF, NAT, ACL, ecc.)
+Template di laboratorio **CCNA 200-301** pensato per:
+- organizzare i miei laboratori e cose che ho imparato per **argomento**
 - documentare **passi, comandi, verifiche** e **troubleshooting**
-- creare un **portfolio pubblico** da mostrare su GitHub e ai recruiter
+- creare un **portfolio pubblico** da mostrare su GitHub
 
-> Suggerimento: mantieni ogni lab **riproducibile** (topologia, config, output `show`, screenshot/pcap) e chiudi con una **checklist** di criteri di completamento.
+## Status
+Day 2 of Week 1
 
 ## Struttura
 ```
@@ -38,15 +39,6 @@ ccna-labs/
 3. Aggiungi **screenshot** e **pcap** in `results/`.
 4. Spunta la **checklist** prima di passare al lab successivo.
 
-## Quick start (GitHub)
-```bash
-git init
-git add .
-git commit -m "feat: inizializza ccna-labs template"
-git branch -M main
-git remote add origin https://github.com/<tuo-utente>/ccna-labs.git
-git push -u origin main
-```
 
 ## Licenza
 MIT — vedi `LICENSE`.
