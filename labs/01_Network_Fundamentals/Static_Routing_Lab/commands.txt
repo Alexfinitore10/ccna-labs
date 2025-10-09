@@ -1,9 +1,0 @@
-# Comandi chiave (aggiungi/rimuovi quelli pertinenti)
-show ip interface brief
-show interfaces trunk
-show vlan brief
-show spanning-tree
-show etherchannel summary
-show ip route
-show ip ospf neighbor
-show access-lists

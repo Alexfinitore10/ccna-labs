@@ -1,30 +1,26 @@
 # Static Routing Lab
 
 ## Obiettivo
-Rotte statiche (default/floating) su 3 router
+Creazione di rotte statiche su 3 router, per la comunicazione tra due pc in sottoreti diverse
 
 ## Topologia & Requisiti
-- Simulator: Packet Tracer / EVE-NG / GNS3
+- Simulator: Packet Tracer
 - Dispositivi: <S1, S2, R1, ...>
-- Diagramma: `diagram.png`
-- File lab: `topology.pkt` (o .unl/.net)
+- Diagramma: `/results/Completed lab.png`
+- File lab: `topology.pkt`
 
 ## Passi Operativi
-1. <configura VLAN 10/20 e trunk 802.1Q>
-2. <crea SVI e abilita ip routing>
-3. <verifica con ping/traceroute>
+1. <configura routers e PC>
+2. <configura ip per ogni interfaccia>
+3. <abilita ip routing statico su ogni pc>
+4. <verifica con ping/traceroute>
 
 ## Comandi Utili
-Vedi `commands.txt`
+Vedi `commands.md`
 
 ## Verifiche
-- [ ] Ping tra host VLAN 10 ↔ VLAN 20
-- [ ] `show interfaces trunk` corretto
-- [ ] `show ip route` con rotte corrette
+- [x] Ping tra due host
+- [x] default gateway configurato sui router delle due LAN
 
 ## Risultati
 - Screenshot: `results/`
-- Capture: `results/*.pcap`
-
-## Troubleshooting
-- <errori comuni e fix>
