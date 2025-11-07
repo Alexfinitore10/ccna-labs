@@ -1,0 +1,13 @@
+# Comandi chiave (aggiungi/rimuovi quelli pertinenti)
+
+- show spanning-tree detail
+- show spanning-tree *interface*
+- configure terminal
+- enable
+- spanning-tree vlan *vlan number* root primary/secondary
+- spanning-tree vlan *vlan number* priority *number*
+- spanning-tree portfast (on an interface)
+- spanning-tree bpduguard enable
+- spanning-tree cost *cost*
+- spanning-tree portfast
+- spanning-tree port-priority *number* 
